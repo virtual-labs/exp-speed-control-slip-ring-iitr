@@ -1,1 +1,1 @@
-### Aim of the experiment
+#### To perform the speed control test on slip ring induction motor by rotor resistance control method. Plot the motor speed characteristics at different values of applied resistance in slip ring of induction motor.
