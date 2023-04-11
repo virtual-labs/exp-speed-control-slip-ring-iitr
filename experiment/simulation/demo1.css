@@ -43,6 +43,17 @@
     border: 1px solid orange;
 }
 
+footer{
+    position: absolute;
+    background-color: grey;
+    width:1310px;
+    height:40px;
+    color: white;
+    margin-top: 610px;
+    margin-left: 12px;
+    text-align: center;
+}
+
 /** ELEMENT POSITIONS **/
 #ld1 {
     top: 12.1em;
@@ -134,17 +145,17 @@
     left: 11em;
 }
 #ld12 {
-    top: 33.77em;
+    top: 33.87em;
     left: 20em;
 }
 
 #ld13 {
-    top: 33.77em;
+    top: 33.87em;
     left: 24em;
 }
 
 #ld14 {
-    top: 33.77em;
+    top: 33.87em;
     left: 28em;
 }
 #ld24 {

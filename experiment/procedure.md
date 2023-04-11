@@ -1,54 +1,54 @@
-Step 1: </B>Make the proper connection by clicking the node as instructed below. If the wire is misplaced, click the node number to deattach the nodes' wire. <br/>
-                    <table>
+<b>STEP 1: </b>Make connections as per the instructions given below. If the wire is wrongly connected, Click on node number to detach the wire.<br>
+                    
+<table>
                         <tr>
-                            <td><B>From</B></td>
-                            <td>1</td>
-                            <td>2</td>
-                            <td>3</td>
-                            <td>4</td>
-                            <td>5</td>
-                            <td>6</td>
-                            <td>7</td>
-                            <td>9</td>
-                            <td>10</td>
-                            <td>11</td>
-                            <td>16</td>
-                            <td>17</td>
-                            <td>18</td>
-                            <td>19</td>
-                            <td>20</td>
+                            <td style="border:1px solid black;"><b>From</b></td>
+                            <td style="border:1px solid black;">1</td>
+                            <td style="border:1px solid black;">2</td>
+                            <td style="border:1px solid black;">3</td>
+                            <td style="border:1px solid black;">4</td>
+                            <td style="border:1px solid black;">5</td>
+                            <td style="border:1px solid black;">6</td>
+                            <td style="border:1px solid black;">7</td>
+                            <td style="border:1px solid black;">9</td>
+                            <td style="border:1px solid black;">10</td>
+                            <td style="border:1px solid black;">11</td>
+                            <td style="border:1px solid black;">16</td>
+                            <td style="border:1px solid black;">17</td>
+                            <td style="border:1px solid black;">18</td>
+                            <td style="border:1px solid black;">19</td>
+                            <td style="border:1px solid black;">20</td>
                         </tr>
                         <tr>
-                        <td><B>To</B></td>
-                            <td>21</td>
-                            <td>22</td>
-                            <td>23</td>
-                            <td>12</td>
-                            <td>13</td>
-                            <td>12</td>
-                            <td>8</td>
-                            <td>15</td>
-                            <td>12</td>
-                            <td>17</td>
-                            <td>13</td>
-                            <td>14</td>
-                            <td>24</td>
-                            <td>25</td>
-                            <td>26</td>
+                            <td style="border:1px solid black;"><b>To</b></td>
+                            <td style="border:1px solid black;">21</td>
+                            <td style="border:1px solid black;">22</td>
+                            <td style="border:1px solid black;">23</td>
+                            <td style="border:1px solid black;">12</td>
+                            <td style="border:1px solid black;">13</td>
+                            <td style="border:1px solid black;">12</td>
+                            <td style="border:1px solid black;">8</td>
+                            <td style="border:1px solid black;">15</td>
+                            <td style="border:1px solid black;">12</td>
+                            <td style="border:1px solid black;">17</td>
+                            <td style="border:1px solid black;">13</td>
+                            <td style="border:1px solid black;">14</td>
+                            <td style="border:1px solid black;">24</td>
+                            <td style="border:1px solid black;">25</td>
+                            <td style="border:1px solid black;">26</td>
                         </tr>
-                    </table>
+</table>
 
-<img src="images/sc1.PNG" alt="" height="400" width="700" align="center"><br>
-
-Step 2: </B>Click "Check" button.<br>
-    1. if connection is correct, an alert appers. Click ok. Now, go to step 4. <br>
-    2. if connection is wrong, an alert appers. Click ok. Now, go to step 3.<br>
-Step 3: </B>Check the connection and either deattach the incorrect wire connection or Click on reset button and start from step 1.<br/>
-Step 4: </B>Switch on the MCB.<br/>
-Step 5: </B>Click anywhere on the autotransformer.<br/>
-Step 6: </B>Slide the knob of the Rheostat to change the resistance.<br/>
-Step 7: </B>Take readings from Rotor, Voltmeter, Ammeter and Watt-meter.<br/>
-Step 8: </B>Click "Add to table" button to insert the values in table.<br/>
-Step 9: </B>Follow the procedure from step 6 to step 8, till you have the 6 readings on table.<br/>
-Step 10: </B>After taking minimum 6 readings, click the "Graph" button.<br/>
-Step 11: </B> Click "Print" button, to print the full connections with graph and table.<br/>
+<img src="images/connec.png" alt="" height="500" width="800">
+                    
+<b>STEP 2: </b>Click on <b>"Check"</b> button for checking the connections.
+<li>if connection is correct, an alert appears. Click ok. Now, go to step 4.</li>
+<li>if connection is wrong, an alert appears. Click ok. Now, go to step 3.</li><br>
+<b>STEP 3: </b>Check the connection and either detach the incorrect wire connection or Click on Reset button and start from step 1.<br><br>
+<b>STEP 4: </b>Switch on the MCB.<br><br>
+<b>STEP 5: </b>Click on the autotransformer knob.<br><br>
+<b>STEP 6: </b>Slide the knob of the Rheostat to change the resistance.<br><br>
+<b>STEP 7: </b>Click on <b>"Add to table"</b> button to insert the readings in the table.<br><br>
+<b>STEP 8: </b>Follow the procedure from step 6 to step 7, till you have the 6 readings in the table.<br><br>  
+<b>STEP 9: </b>After taking minimum 6 readings, Click on the <b>"Graph"</b> button.<br><br>
+<b>STEP 10: </b>Click on <b>"Print"</b> button to print the full connections with graph and table.

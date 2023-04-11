@@ -744,8 +744,8 @@ jsPlumb.ready(function () {
             // return false
         });
 
-//&& is_connected_2_13 && is_connected_3_14 && is_connected_4_18 && is_connected_5_19 && is_connected_6_18 && is_connected_7_8 && is_connected_9_15 && is_connected_10_18 && is_connected_11_17 && is_connected_16_19 &&is_connected_17_20 &&is_connected_21_24 &&is_connected_22_25 && is_connected_23_26 
-        if ( is_connected_1_12 && !unallowed_connection_present) 
+//  
+        if ( is_connected_1_12 && is_connected_2_13 && is_connected_3_14 && is_connected_4_18 && is_connected_5_19 && is_connected_6_18 && is_connected_7_8 && is_connected_9_15 && is_connected_10_18 && is_connected_11_17 && is_connected_16_19 &&is_connected_17_20 &&is_connected_21_24 &&is_connected_22_25 && is_connected_23_26 &&!unallowed_connection_present) 
         {
             alert("Alert ! Correct connection proceed to take reading.");
             document.getElementById("check-button").disabled=true;
@@ -755,7 +755,7 @@ jsPlumb.ready(function () {
         } 
         else 
         {
-            alert("Alert ! Incorrect connection.");
+            alert("Alert ! Incorrect connection");
             
             return;
         } 
@@ -1548,7 +1548,36 @@ function mcbonoff()
             document.getElementById('myimage').src='mcbon.png';
             document.getElementById('myimage1').src='push2.png';
             document.getElementById('myimage2').src='push2.png';
-            document.getElementById('myimage3').src='push2.png';            
+            document.getElementById('myimage3').src='push2.png';     
+            
+            document.getElementById("dis1").style.pointerEvents="none";
+            document.getElementById("dis2").style.pointerEvents="none";
+            document.getElementById("dis3").style.pointerEvents="none";
+            document.getElementById("dis4").style.pointerEvents="none";
+            document.getElementById("dis5").style.pointerEvents="none";
+            document.getElementById("dis6").style.pointerEvents="none";
+            document.getElementById("dis7").style.pointerEvents="none";
+            document.getElementById("dis8").style.pointerEvents="none";
+            document.getElementById("dis9").style.pointerEvents="none";
+            document.getElementById("dis10").style.pointerEvents="none";
+            document.getElementById("dis11").style.pointerEvents="none";
+            document.getElementById("dis12").style.pointerEvents="none";
+            document.getElementById("dis13").style.pointerEvents="none";
+            document.getElementById("dis14").style.pointerEvents="none";
+            document.getElementById("dis15").style.pointerEvents="none";
+            document.getElementById("dis16").style.pointerEvents="none";
+            document.getElementById("dis17").style.pointerEvents="none";
+            document.getElementById("dis18").style.pointerEvents="none";
+            document.getElementById("dis19").style.pointerEvents="none";
+            document.getElementById("dis20").style.pointerEvents="none";
+            document.getElementById("dis21").style.pointerEvents="none";
+            document.getElementById("dis22").style.pointerEvents="none";
+            document.getElementById("dis23").style.pointerEvents="none";
+            document.getElementById("dis24").style.pointerEvents="none";
+            document.getElementById("dis25").style.pointerEvents="none";
+            document.getElementById("dis26").style.pointerEvents="none";
+
+
         }
         else
         {
@@ -1794,10 +1823,10 @@ var xx = [];
         var cell2 = y.insertCell(1);
         var cell3 = y.insertCell(2);
         var cell4 = y.insertCell(3);
-        cell1.innerHTML = "SN";
-        cell2.innerHTML = "Ammeter";
-        cell3.innerHTML = "Wattmeter"
-        cell4.innerHTML = "Speed";
+        cell1.innerHTML = "S.No.";
+        cell2.innerHTML = "Current(A)";
+        cell3.innerHTML = "Power(W)"
+        cell4.innerHTML = "Speed (RPM)";
         cell1.innerHTML = count++;
         cell2.innerHTML = rangeShow2.value;
         cell3.innerHTML = rangeShow3.value;
@@ -1854,11 +1883,11 @@ var xx = [];
       }
       else
       {
-        alert("Only maximum 10 readings are allowed.");
+        alert("Maximum 10 readings are allowed.");
       }
       
       trace1.x.push(cell4.innerHTML);
-      trace1.y.push(resistance);
+      trace1.y.push(cell2.innerHTML);
       
 
      })
@@ -1872,30 +1901,31 @@ var xx = [];
      {
         var data = [trace1];
         var layout={
+            hovermode: false,
             xaxis:{
                 title:{
-                    text:'Speed',
+                    text:'Speed (RPM)',
                     font:
                     {
                         family:'Courier New, monoscope',
                         size:18,
-                        color:'#7f7f7f'
+                        color:'#7f7f7f',
                     }
                 },
             },
             yaxis:{
                 title:{
-                    text:'Resistance',
+                    text:'Ammeter (A)',
                     font:
                     {
                         family:'Courier New, monoscope',
                         size:18,
-                        color:'#7f7f7f'
+                        color:'#7f7f7f',
                     }
                 },
             }
         };
-
+        
         Plotly.newPlot('myDiv', data, layout, {showSendToCloud: true});
      }
    }

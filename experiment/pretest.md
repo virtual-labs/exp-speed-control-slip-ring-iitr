@@ -1,33 +1,39 @@
-## <b> Pre-test
+## Pre-test
 #### Please attempt the following questions 
 <br>
-Q1 In a dc machine 72 number of coils are used. Find the number of commutator segments required?<br>
-A 36<br>
-B 37<br>
-<b>C 72<br> </b>
-D 74<br>
-    
-Q2 Which of the following windings are necessary in case of all dc machines?<br>
-<b>A closed winding<br></b>
-B lap winding<br>
-C wave winding<br>
-D open type winding<br>
- 
-Q3 DC machine windings are<br>
-<b>A full pitched<br></b>
-B short piched<br>
-C either of these<br>
-D none of the above<br>
 
-Q4 In a dc machine 4 pole lap winding is used. The number of parallel paths are?<br>
-A 2<br>
-<b>B 4<br></b>
-C 1<br>
-D 8<br>
+Q1. Slip ring induction motor has<br>
+
+A Low starting torque<br>
+B Medium starting torque<br>
+C High starting torque<br>
+D None of the above<br>
  
-Q5 Dummy coils are used for...<br>
-A increasing efficiency<br>
-B reducing armature reaction<br>
-<b>C mechanical balancing<br></b>
+Q2. The advantage of skewing in induction motor is/are<br>
+
+A Motor runs smoothly as the magnetic hum is reduced<br>
+B The tendency of the rotor teeth to remain under the stator teeth due to direct magnetic attraction is reduced<br>
+C More uniform torque is obtained while running<br>
 D All of the above<br>
+
+Q3. The frequency of the induced emf in an induction motor is?<br>
+
+A Same as the supply frequency<br>
+B Greater than the supply frequency<br>
+C Lesser than the supply frequency<br>
+D None of the above<br>
+
+Q4. Slip rings are usually made of-<br>
+
+A Copper<br>
+B Phosphor bronze<br>
+C Carbon<br>
+D Aluminium<br>
+ 
+Q5. Slip ring induction motor are employed only for-<br>
+
+A Speed control<br>
+B High starting torque<br>
+C Both (a) and (b)<br>
+D None of the above<br>
  
