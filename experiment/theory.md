@@ -5,7 +5,7 @@ A wound rotor induction motor or slip ring induction motor has a stator like the
 
 
 <center><img src="images/3-phase-induction-motor.gif"><br>
-<b>Figure : Equivalent circuit of slip ring induction motor.</b></center>
+<b>Fig. 1 Equivalent circuit of slip ring induction motor</b></center>
 
 ### Slip Ring Characteristcs 
 
@@ -21,12 +21,12 @@ The external rheostat which is used for the starting purpose of these slip ring 
 
 <center><b>Torque T = S/R</b></center><br>
 Where, <br>
-S – is the slip of the motor,<br>
-R – is the Rotor resistance.<br>
+S is the slip of the motor,<br>
+R is the Rotor resistance.<br>
 
 It is evident from the above relation that as the rotor resistance increases, the torque decreases. But for a given load demand, the motor and thus the rotor has to supply the same torque without any decrease. So in order to maintain the torque constant, as the rotor resistance increases the slip also increases. This increase in slip is nothing but decrease in motor speed.<br>
 
 
 ### Disadvantages:
  
-But there are some disadvantages in this method of speed control. As the rotor resistance is increased, the “I^2 * R” losses also increases which in turn decreases the operating efficiency of the motor. It can be interpreted as the loss is directly proportional to reduction in speed. Since the losses are more, this method of speed reduction is used only for short period only.
+But there are some disadvantages in this method of speed control. As the rotor resistance is increased, the “I<sup>2</sup>R” losses also increases which in turn decreases the operating efficiency of the motor. It can be interpreted as the loss is directly proportional to reduction in speed. Since the losses are more, this method of speed reduction is used only for short period only.
