@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Speed Control of Slip Ring Induction Motor by Rotor Resistance Control. </title>
+  <title>Virtual Labs | Speed Control of Slip Ring Induction Motor by Rotor Resistance Control</title>
         <meta http-equiv="content-type" content="text/html;charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
 
          <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="demo1.css">
+        <link rel="icon" type="image/x-icon" href="vlab logo.jpg">
+
         
       <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
         <script src="graph.ob.js"></script>
@@ -74,13 +76,16 @@ div
 }
 .column30l {
   float: left;
-  width: 30%;
+  margin-top: -300px;
+  margin-left: 914px;
+  width: 30.2%;
   padding: 10px;
   height: 300px;
-  border-left: none;
+  border: 4px solid rgba(0, 0, 0, 0.822);
+  /* border-left: none;
   border-top:none;
   border-bottom: solid;
-  border-right:solid;
+  border-right:solid; */
   color:#222d32;
 }
 .column10 {
@@ -185,64 +190,68 @@ img.autoTransformerinner
     transform: rotate(359deg);
   }
 }
-}
+
+#graph:hover{
+  background-color: #288d3b;
+};
+
 </style>
 </head>
 <body>
   <div class="jtk-demo-main" data-demo-id="animation" >
     <div class="jtk-demo-canvas canvas-wide animation-demo jtk-surface jtk-surface-nopan" id="canvas">
       <div id="wrapper" style="position:absolute; top:10px;width:1310px;left:20px">
-        <div class="littledot" id="ld1"></br><a href="#" class="cmdLink detach" rel="ld1">1</a>
+        <div class="littledot" id="ld1"></br><a href="#" class="cmdLink detach" rel="ld1" id="dis1">1</a>
         </div>
-        <div class="littledot" id="ld2"></br><a href="#" class="cmdLink detach" rel="ld2">2</a>
+        <div class="littledot" id="ld2"></br><a href="#" class="cmdLink detach" rel="ld2" id="dis2">2</a>
         </div>
-        <div class="littledot" id="ld3"></br><a href="#" class="cmdLink detach" rel="ld3">3</a>
+        <div class="littledot" id="ld3"></br><a href="#" class="cmdLink detach" rel="ld3" id="dis3">3</a>
         </div>
-        <div class="littledot" id="ld4"></br><a href="#" class="cmdLink detach" rel="ld4">4</a>
+        <div class="littledot" id="ld4"></br><a href="#" class="cmdLink detach" rel="ld4" id="dis4">4</a>
         </div>
-        <div class="littledot" id="ld5"></br><a href="#" class="cmdLink detach" rel="ld5">5</a>
+        <div class="littledot" id="ld5"></br><a href="#" class="cmdLink detach" rel="ld5" id="dis5">5</a>
         </div>
-        <div class="littledot" id="ld6"></br><a href="#" class="cmdLink detach" rel="ld6">6</a>
+        <div class="littledot" id="ld6"></br><a href="#" class="cmdLink detach" rel="ld6" id="dis6">6</a>
         </div>
-        <div class="littledot" id="ld7"></br><a href="#" class="cmdLink detach" rel="ld7">7</a>
+        <div class="littledot" id="ld7"></br><a href="#" class="cmdLink detach" rel="ld7" id="dis7">7</a>
         </div>
-        <div class="littledot" id="ld8"></br><a href="#" class="cmdLink detach" rel="ld8">8</a>
+        <div class="littledot" id="ld8"></br><a href="#" class="cmdLink detach" rel="ld8" id="dis8">8</a>
         </div>
-        <div class="littledot" id="ld9"></br><a href="#" class="cmdLink detach" rel="ld9">9</a>
+        <div class="littledot" id="ld9"></br><a href="#" class="cmdLink detach" rel="ld9" id="dis9">9</a>
         </div>
-        <div class="littledot" id="ld10"></br><a href="#" class="cmdLink detach" rel="ld10">10</a>
+        <div class="littledot" id="ld10"></br><a href="#" class="cmdLink detach" rel="ld10" id="dis10">10</a>
         </div>
-        <div class="littledot" id="ld11"></br><a href="#" class="cmdLink detach" rel="ld11">11</a>
+        <div class="littledot" id="ld11"></br><a href="#" class="cmdLink detach" rel="ld11" id="dis11">11</a>
         </div>
-        <div class="littledot" id="ld12"></br><a href="#" class="cmdLink detach" rel="ld12">21</a>
+        <div class="littledot" id="ld12"></br><a href="#" class="cmdLink detach" rel="ld12" id="dis12">21</a>
         </div>
-        <div class="littledot" id="ld13"></br><a href="#" class="cmdLink detach" rel="ld13">22</a>
+        <div class="littledot" id="ld13"></br><a href="#" class="cmdLink detach" rel="ld13" id="dis13">22</a>
         </div>
-        <div class="littledot" id="ld14"></br><a href="#" class="cmdLink detach" rel="ld14">23</a>
+        <div class="littledot" id="ld14"></br><a href="#" class="cmdLink detach" rel="ld14" id="dis14">23</a>
         </div>
-        <div class="littledot" id="ld15"></br><a href="#" class="cmdLink detach" rel="ld15">15</a>
+        <div class="littledot" id="ld15"></br><a href="#" class="cmdLink detach" rel="ld15" id="dis15">15</a>
         </div>
-        <div class="littledot" id="ld16"></br><a href="#" class="cmdLink detach" rel="ld16">16</a>
+        <div class="littledot" id="ld16"></br><a href="#" class="cmdLink detach" rel="ld16" id="dis16">16</a>
         </div>
-        <div class="littledot" id="ld17"></br><a href="#" class="cmdLink detach" rel="ld17">17</a>
+        <div class="littledot" id="ld17"></br><a href="#" class="cmdLink detach" rel="ld17" id="dis17">17</a>
         </div>
-        <div class="littledot" id="ld18"></br><a href="#" class="cmdLink detach" rel="ld18">12</a>
+        <div class="littledot" id="ld18"></br><a href="#" class="cmdLink detach" rel="ld18" id="dis18">12</a>
         </div>
-        <div class="littledot" id="ld19"></br><a href="#" class="cmdLink detach" rel="ld19">13</a>
+        <div class="littledot" id="ld19"></br><a href="#" class="cmdLink detach" rel="ld19" id="dis19">13</a>
         </div>
-        <div class="littledot" id="ld20"></br><a href="#" class="cmdLink detach" rel="ld20">14</a>
+        <div class="littledot" id="ld20"></br><a href="#" class="cmdLink detach" rel="ld20" id="dis20">14</a>
         </div>
-        <div class="littledot" id="ld21"></br><a href="#" class="cmdLink detach" rel="ld21">18</a>
+        <div class="littledot" id="ld21"></br><a href="#" class="cmdLink detach" rel="ld21" id="dis21">18</a>
         </div>
-        <div class="littledot" id="ld22"></br><a href="#" class="cmdLink detach" rel="ld22">19</a>
+        <div class="littledot" id="ld22"></br><a href="#" class="cmdLink detach" rel="ld22" id="dis22">19</a>
         </div>
-        <div class="littledot" id="ld23"></br><a href="#" class="cmdLink detach" rel="ld23">20</a>
+        <div class="littledot" id="ld23"></br><a href="#" class="cmdLink detach" rel="ld23" id="dis23">20</a>
         </div>
-        <div class="littledot" id="ld24"></br><a href="#" class="cmdLink detach" rel="ld24">24</a>
+        <div class="littledot" id="ld24"></br><a href="#" class="cmdLink detach" rel="ld24" id="dis24">24</a>
         </div>
-        <div class="littledot" id="ld25"></br><a href="#" class="cmdLink detach" rel="ld25">25</a>
+        <div class="littledot" id="ld25"></br><a href="#" class="cmdLink detach" rel="ld25" id="dis25">25</a>
         </div>
-        <div class="littledot" id="ld26"></br><a href="#" class="cmdLink detach" rel="ld26">26</a>
+        <div class="littledot" id="ld26"></br><a href="#" class="cmdLink detach" rel="ld26" id="dis26">26</a>
         </div>
         <div class="row">
           <div class="column10"> 
@@ -296,7 +305,7 @@ img.autoTransformerinner
                   <input class="rang-number" id="show3" type="text" value="0" disabled="disabled"/>
                 </div>
                 <br/>
-                Watt-meter
+                Wattmeter
               </div>
               <div style="position: absolute;top: -10.5em;left: 40.5em;">
                 <svg class="meter">
@@ -306,11 +315,11 @@ img.autoTransformerinner
               </div>
             </div>
             <div >
-            <div style="position:absolute;left:77em;top:10em;">
-              <button id="check-button" style="color:white;background-color:#27D447; border:none; margin:4px 2px; padding-top:10px;padding-bottom:10px;padding-left:15px;padding-right:15px;border-radius:10px" >Check</button>
+            <div style="position:absolute;margin-left:67.7em;margin-top:-9.5em;">
+              <button id="check-button" style="color:white;background-color:#27D447; border:2px solid green;padding-top:10px;padding-bottom:10px;padding-left:15px;padding-right:15px;border-radius:10px;cursor:pointer;" >Check</button>
             </div>
-            <div style="position:absolute;left:77em;top:7em;">
-              <button id="reset" type="reset" onclick=" window.location.href = 'main.html';" style="color:white;background-color:#27D447; border:none; margin:4px 2px; padding-top:10px;padding-bottom:10px;padding-left:15px;padding-right:15px;border-radius:10px" >Reset</button>
+            <div style="position:absolute;left:76.7em;top:13em;">
+              <button id="reset" type="reset" onclick=" window.location.href = 'index.html'" style="color:white;background-color:#27D447; border:2px solid green; margin:4px 2px; padding-top:10px;padding-bottom:10px;padding-left:15px;padding-right:15px;border-radius:10px;cursor:pointer;" >Reset</button>
               
               </div>
             </div>
@@ -319,12 +328,12 @@ img.autoTransformerinner
 
           <div class="column30" >
             <div style="position:absolute;left:72em;top:5em;">
-              <table id="table" class="table" border="2" style="position: relative;right:13em;top:-4em; ">
+              <table id="table" class="table" border="2" style="position: relative;right:14em;top:-4em; ">
               <tr>
-              <th>SN</th>
-              <th>Ammeter</th>
-              <th>WattMeter</th>
-              <th>Speed</th>
+              <th>S.No.</th>
+              <th>Current(A)</th>
+              <th>Power(W)</th>
+              <th>Speed (RPM)</th>
               </tr>
               </table>
             </div> 
@@ -333,16 +342,22 @@ img.autoTransformerinner
 .tooltip {
   position: relative;
   display: inline-block;
-  color: blue;
+  background-color: #27D447;
+  color: white;
+  height:40px;
+  width:100px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 6px;
 }
 
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 400px;
-  background-color: linen;
+  background-color: white;
   color: black;
   text-align: left;
-  left: -20em;  
+  left: -18.3em;  
   border-radius: 6px;
   padding: 5px 0;
   
@@ -362,61 +377,60 @@ img.autoTransformerinner
 
 <div style="text-align:right;">
 
-<div class="tooltip" "><u><B>Instruction</B></u>
+<div class="tooltip"><u><B>Instruction</B></u>
   <span class="tooltiptext">
-          <B>Step 1: </B>Make the proper connection by clicking the node as instructed below. If the wire is misplaced, click the node number to deattach the nodes' wire. <br/>
+          <b>STEP 1: </b>Make connections as per the instructions given below. If the wire is wrongly connected, Click on node number to detach the wire.<br>
                     <center>
                     <table>
                         <tr>
-                            <td><B>From</B></td>
-                            <td>1</td>
-                            <td>2</td>
-                            <td>3</td>
-                            <td>4</td>
-                            <td>5</td>
-                            <td>6</td>
-                            <td>7</td>
-                            <td>9</td>
-                            <td>10</td>
-                            <td>11</td>
-                            <td>16</td>
-                            <td>17</td>
-                            <td>18</td>
-                            <td>19</td>
-                            <td>20</td>
+                            <td style="border:1px solid black;"><b>From</b></td>
+                            <td style="border:1px solid black;">1</td>
+                            <td style="border:1px solid black;">2</td>
+                            <td style="border:1px solid black;">3</td>
+                            <td style="border:1px solid black;">4</td>
+                            <td style="border:1px solid black;">5</td>
+                            <td style="border:1px solid black;">6</td>
+                            <td style="border:1px solid black;">7</td>
+                            <td style="border:1px solid black;">9</td>
+                            <td style="border:1px solid black;">10</td>
+                            <td style="border:1px solid black;">11</td>
+                            <td style="border:1px solid black;">16</td>
+                            <td style="border:1px solid black;">17</td>
+                            <td style="border:1px solid black;">18</td>
+                            <td style="border:1px solid black;">19</td>
+                            <td style="border:1px solid black;">20</td>
                         </tr>
                         <tr>
-                        <td><B>To</B></td>
-                            <td>21</td>
-                            <td>22</td>
-                            <td>23</td>
-                            <td>12</td>
-                            <td>13</td>
-                            <td>12</td>
-                            <td>8</td>
-                            <td>15</td>
-                            <td>12</td>
-                            <td>17</td>
-                            <td>13</td>
-                            <td>14</td>
-                            <td>24</td>
-                            <td>25</td>
-                            <td>26</td>
+                            <td style="border:1px solid black;"><b>To</b></td>
+                            <td style="border:1px solid black;">21</td>
+                            <td style="border:1px solid black;">22</td>
+                            <td style="border:1px solid black;">23</td>
+                            <td style="border:1px solid black;">12</td>
+                            <td style="border:1px solid black;">13</td>
+                            <td style="border:1px solid black;">12</td>
+                            <td style="border:1px solid black;">8</td>
+                            <td style="border:1px solid black;">15</td>
+                            <td style="border:1px solid black;">12</td>
+                            <td style="border:1px solid black;">17</td>
+                            <td style="border:1px solid black;">13</td>
+                            <td style="border:1px solid black;">14</td>
+                            <td style="border:1px solid black;">24</td>
+                            <td style="border:1px solid black;">25</td>
+                            <td style="border:1px solid black;">26</td>
                         </tr>
                     </table>
-                    </center>
-                    <B>Step 2: </B>Click "Check" button.
-                    <li>if connection is correct, an alert appers. Click ok. Now, go to step 4.</li>
-                    <li>if connection is wrong, an alert appers. Click ok. Now, go to step 3.</li>
-                    <B>Step 3: </B>Check the connection and either deattach the incorrect wire connection or Click on reset button and start from step 1.<br/>
-                    <B>Step 4: </B>Switch on the MCB.<br/>
-                    <B>Step 5: </B>Click anywhere on the autotransformer.<br/>
-                    <B>Step 6: </B>Slide the knob of the Rheostat to change the resistance.<br/>
-                    <B>Step 7: </B>Take readings from Rotor, Voltmeter, Ammeter and Watt-meter.<br/>
-                    <B>Step 8: </B>Click "Add to table" button to insert the values in the table.<br/>
-                    <B>Step 9: </B>Follow the procedure from step 6 to step 8, till you have the 6 readings on the table.<br/>  
-                    <B>Step 10: </B> After taking minimum 6 readings, click the "Graph" button.<br/>
-                    <B>Step 11: </B> Click "Print" button, to print the full connections with graph and table.
+                    </center><br>
+                    <b>STEP 2: </b>Click on <b>"Check"</b> button for checking the connections.<br>
+                    <li>if connection is correct, an alert appears. Click ok. Now, go to step 4.</li>
+                    <li>if connection is wrong, an alert appears. Click ok. Now, go to step 3.</li>
+                    <b>STEP 3: </b>Check the connection and either detach the incorrect wire connection or Click on Reset button and start from step 1.<br>
+                    <b>STEP 4: </b>Switch on the MCB.<br>
+                    <b>STEP 5: </b>Click on the autotransformer knob.<br>
+                    <b>STEP 6: </b>Slide the knob of the Rheostat to change the resistance.<br>
+                    <b>STEP 7: </b>Click on <b>"Add to table"</b> button to insert the readings in the table.<br>
+                    <b>STEP 8: </b>Follow the instructions from step 6 to step 7, till you have the 6 readings in the table.<br>  
+                    <b>STEP 9: </b>After taking minimum 6 readings, Click on the <b>"Graph"</b> button.<br>
+                    <b>STEP 10: </b>Click on <b>"Print"</b> button to print the full connections with graph and table.
 
 </span>
 </div>
@@ -428,7 +442,7 @@ img.autoTransformerinner
           
           <div class="column17" >
             <img style=" position:relative; top:0em; left:0px; width:100%;" class="resistanceBox" src="Rheostat.png" alt="Rheostat" >
-            <div style="position: relative;top:-13em"><center><b>Resistance Box</center></b></div>
+            <div style="position: relative;top:-11em"><center><b>Rheostat</center></b></div>
             <div class="slidecontainer" style=" position:relative; top:-132px; left:40px">
               <input class="rang-slider" disabled="true" id="range" type="range" min="0" max="9" value="0"/>
             </div> 
@@ -446,7 +460,7 @@ img.autoTransformerinner
               <img style="height:250px; width:250px;" src="Autotransformerouter.png" class="autoTrasformerouter" />
             </div>
             <div style="position: relative; left: 4.5em; top:-14em;">
-              <img style="height:140px; width:140px;" src="Autotransformerinner.png" id="cirmover1" onclick="rotaronoff();" class="autoTransformerinner"/>
+              <img style="height:140px; width:140px;cursor:pointer;" src="Autotransformerinner.png" id="cirmover1" onclick="rotaronoff();" class="autoTransformerinner"/>
              <div style="position: absolute;top:-5.7em;"><b><center>Autotransformer</center></b></div>
             </div>
           </div>
@@ -460,34 +474,40 @@ img.autoTransformerinner
             <img src="Rotorouter.png" class="rotate1" style="position: absolute;top:35px;left: 255px;width:100px ;">
             <img src="Rotorinner.png" class="rotate" id="cirmover2" style="position: absolute;top: 60px;left: 280px;width:50px;">
           </div>
-           <div style="position: relative;top:-2.5em; left: -5em;"><center><b>3 &#934 Induction Motor</b></center></div>
-              <div style="position: relative;top:-3.65em; left: 7em;"><center><b>Rotor View</b></center></div>
+           <div style="position: relative;top:0.5em; left: -4em;"><center><b>3-&#934 Induction Motor</b></center></div>
+              <div style="position: relative;top:0.5em; left: 7.4em;"><center><b>Rotor View</b></center></div>
         </div>
         <div style="position: relative;top:0.8em;"><center><b>Graph</b></center></div>
       <div class="column30l">
-            <div style="position:absolute;left:75em;top:16em;">
-            <button id="addToTable" disabled="true" style="color:white;background-color:#27D447; border:none; margin:4px 2px; padding-top:10px;padding-bottom:10px;padding-left:15px;padding-right:15px;border-radius:10px" >Add to table</button>
+            <div style="position:absolute;left: 74.6em;top:7em;">
+            <button id="addToTable" disabled="true" style="color:white;background-color:#27D447; border:2px solid green; margin:4px 2px; padding-top:10px;padding-bottom:10px;padding-left:15px;padding-right:15px;border-radius:8px;cursor:pointer;">Add to table</button>
               
             </div>
             <br><br><br><br>
             <div>
-              <div style="position:absolute;left:77em;top:13em; ">
-                <button id="graph" onclick="drawgraph();" disabled="true" style="color:white;background-color:#27D447; border:none; margin:4px 2px; padding-top:10px;padding-bottom:10px;padding-left:15px;padding-right:15px;border-radius:10px">Graph
+              <div style="position:absolute;left:76.6em;top:10em; ">
+                <button id="graph" onclick="drawgraph();" disabled="true" style="color:white;background-color:#27D447; border:2px solid green; margin:4px 2px; padding-top:10px;padding-bottom:10px;padding-left:15px;padding-right:15px;border-radius:10px;cursor:pointer;">Graph
                 </button>
               </div>
-              <div style="position:absolute;left:74em;top:4em;">
-                <button id="print"  onclick="window.print();" style="color:white;background-color:#27D447; border:none; margin:4px 2px; padding-top:10px;padding-bottom:10px;padding-left:15px;padding-right:15px;border-radius:10px">Print this page
+              <div style="position:absolute;left:76.8em;top:16.2em;">
+                <button id="print"  onclick="window.print();" style="color:white;background-color:#27D447; border:2px solid green;height:36px;width:69px; padding-top:10px;padding-bottom:10px;padding-left:15px;padding-right:15px;border-radius:10px;text-align: center;cursor:pointer;">Print
                 </button>
               </div>
             </div>
             <div class="container"  style="position:absolute; top:18.8em;left:56.7em;">
-              <div   class="box" id="myDiv" style="width:390px;height:300px;"></div>
+              <div   class="box" id="myDiv" style="width:390px;height:295px;"></div>
+              <!-- <div   class="box" id="myDiv" ></div> -->
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+  <footer>
+    <p>Copyright&copy; 2019 Virtual Labs, IIT Roorkee</p>
+  </footer>
+
 <script src="jsplumb1.js"></script>
 <script src="demo1.js"></script>
 <script src="script.js"></script>
