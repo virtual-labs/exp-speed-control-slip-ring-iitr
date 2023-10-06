@@ -45,13 +45,18 @@
 
 footer{
     position: absolute;
-    background-color: grey;
+    background-color: rgba(0, 0, 0, 0.856);
     width:1310px;
-    height:40px;
+    height:30px;
     color: white;
-    margin-top: 610px;
-    margin-left: 12px;
+    top: 615px;
+    left: 20px;
     text-align: center;
+}
+
+footer p{
+    position: relative;
+    margin-top: 6px;
 }
 
 /** ELEMENT POSITIONS **/
@@ -173,7 +178,9 @@ footer{
     left: 43.5em;
 }
 
-
+.cmdLink{
+    color: red;
+}
 
 
 
