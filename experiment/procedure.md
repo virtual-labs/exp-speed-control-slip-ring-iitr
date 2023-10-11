@@ -1,6 +1,6 @@
 <b>STEP 1: </b>Make connections as per the instructions given below. If the wire is wrongly connected, Click on node number to detach the wire.<br>
                     
-<table>
+<table style="text-align: center;">
                         <tr>
                             <td style="border:1px solid black;"><b>From</b></td>
                             <td style="border:1px solid black;">1</td>
@@ -42,8 +42,8 @@
 <img src="images/connec.png" alt="" height="500" width="800">
                     
 <b>STEP 2: </b>Click on <b>"Check"</b> button for checking the connections.
-<li>if connection is correct, an alert appears. Click ok. Now, go to step 4.</li>
-<li>if connection is wrong, an alert appears. Click ok. Now, go to step 3.</li><br>
+<li>If connection is correct, an alert appears. Click ok. Now, go to step 4.</li>
+<li>If connection is wrong, an alert appears. Click ok. Now, go to step 3.</li><br>
 <b>STEP 3: </b>Check the connection and either detach the incorrect wire connection or Click on Reset button and start from step 1.<br><br>
 <b>STEP 4: </b>Switch on the MCB.<br><br>
 <b>STEP 5: </b>Click on the autotransformer knob.<br><br>
