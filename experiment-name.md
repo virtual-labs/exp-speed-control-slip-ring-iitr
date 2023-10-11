@@ -1,0 +1,1 @@
+## Speed control of slipring Induction Motor.
