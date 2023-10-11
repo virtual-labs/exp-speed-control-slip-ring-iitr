@@ -72,6 +72,7 @@
       #range {
         margin-bottom: 50px;
         width: 112px;
+        cursor: grabbing;
       }
 
       .meter1 {
@@ -116,12 +117,12 @@
   #table {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+  width: 250px;
 }
 
 #table td, #customers th {
- 
-  padding: 0;
+    padding: 0;
+    text-align: center;
 }
 
 
@@ -129,9 +130,9 @@
 #table tr:hover {background-color: #27D447;}
 
 #table th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
+  padding-top: 3px;
+  padding-bottom: 6px;
+  text-align: center;
   background-color: linen;
   color: black;
 }
